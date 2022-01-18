@@ -27,7 +27,7 @@ HyperDLNA removes these limitations.
 [APK](https://github.com/varbhat/hyperdlna/releases/latest/download/app-debug.apk) can be downloaded from [Releases](https://github.com/varbhat/hyperdlna/releases/latest). It is built on each push by Github Actions. Note that it is debug build and Google Play Store may warn you while installation.
 
 ## Building Application
-This Application Supports This Application can be built in Android Studio or Command Line.
+This Application can be built in Android Studio or Command Line.
 Please Refer:
 1. [Build and run Application](https://developer.android.com/studio/run)
 2. [Building Application in Command Line](https://developer.android.com/studio/build/building-cmdline)
