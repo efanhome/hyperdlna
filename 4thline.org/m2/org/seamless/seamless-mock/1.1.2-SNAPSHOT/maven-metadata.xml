@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.seamless</groupId>
+  <artifactId>seamless-mock</artifactId>
+  <version>1.1.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20150409.134723</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20150409134723</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.1.2-20150409.134723-1</value>
+        <updated>20150409134723</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.1.2-20150409.134723-1</value>
+        <updated>20150409134723</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.1.2-20150409.134723-1</value>
+        <updated>20150409134723</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
