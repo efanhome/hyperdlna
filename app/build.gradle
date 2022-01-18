@@ -1,0 +1,43 @@
+plugins {
+    id 'com.android.application'
+}
+
+
+android {
+    compileSdk 29
+
+    defaultConfig {
+        applicationId "app.vbt.hyperdlna"
+        minSdk 29
+        targetSdk 29
+        versionCode 1
+        versionName "0.0.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        exclude 'META-INF/beans.xml'
+    }
+}
+
+
+dependencies {
+    implementation group: 'org.fourthline.cling', name: 'cling-core', version:'2.1.1'
+    implementation group: 'org.fourthline.cling', name: 'cling-support', version:'2.1.1'
+    implementation group: 'org.eclipse.jetty', name: 'jetty-server', version:'8.1.12.v20130726'
+    implementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version:'8.1.12.v20130726'
+    implementation group: 'org.eclipse.jetty', name: 'jetty-client', version:'8.1.12.v20130726'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version:'1.7.21'
+    implementation group: 'com.squareup.picasso',name: 'picasso',version: '2.71828'
+}

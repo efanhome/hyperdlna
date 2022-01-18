@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://github.com/varbhat/hyperdlna/raw/maven/4thline.org/m2'
+        }
+    }
+
+}
+rootProject.name = "Hyper DLNA"
+include ':app'
