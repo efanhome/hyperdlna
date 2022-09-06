@@ -1,5 +1,8 @@
 name: 'Build HyperDLNA'
-on: [push]
+on:
+  push:
+  schedule:
+    - cron: '25 22 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
